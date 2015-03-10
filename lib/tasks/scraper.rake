@@ -77,7 +77,7 @@ namespace :scraper do
   desc "Save neighborhood codes in a reference table"
   task scrape_neighborhoods: :environment do
   	require 'open-uri'
-	require 'JSON'
+	require 'json'
 
 	# Set API token and URL
 	auth_token = "d92758e35eb721d95c689f43dfc16af6"
